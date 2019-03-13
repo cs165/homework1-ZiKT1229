@@ -46,7 +46,7 @@ body {
 }
 
 h1 {
-  margin: 0;
+  margin: 50px auto;
   text-align: center;
 }
 
@@ -62,17 +62,30 @@ h1 {
 }
 
 .cat-image {
-  width: 50%;
-  height: 50%;
+  width: 40%;
+  height: 40%;
 }
 
 .cat-data {
   width: 50%;
+  margin: auto;
 }
 
 .cat-name {
   display: block;
   text-decoration: none;
   color: salmon;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cat-name:hover {
+  color: sandybrown;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  background: ghostwhite;
   text-align: center;
 }
