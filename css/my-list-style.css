@@ -3,6 +3,7 @@
 */
 body {
   margin: 0;
+  background: wheat;
 }
 
 .header {
@@ -50,11 +51,24 @@ h1 {
   text-align: center;
 }
 
+h1::before,
+h1::after {
+  content: url(../images/cat-icon.png);
+}
+
 .cat {
+  background: white;
   margin: 50px auto;
   width: 80%;
   display: flex;
   flex-direction: row;
+  border: 32px solid black;
+  border-image: url(../images/cat-icon.png) 32 round;
+  transition: box-shadow .5s;
+}
+
+.cat:hover {
+  box-shadow: 10px 10px 8px #888888;
 }
 
 .cat:nth-child(2n) {
