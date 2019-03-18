@@ -20,13 +20,13 @@ body {
   text-align: center;
   max-width: 780px;
   color: white;
-  font-family: serif;
+  font-family: 'Roboto Slab',serif;
   font-size: 36px;
   font-weight: normal;
 }
 
 #profile {
-  width: 225px;
+  width: 200px;
   text-align: center;
   position: relative;
   top: -50px;
@@ -42,7 +42,7 @@ body {
 
 #proflie-p {
   margin: 0;
-  font-family: sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
   color: rgb(51, 51, 51);
   line-height: 24px;
@@ -72,8 +72,8 @@ body {
 
 .heading {
   position: relative;
-  left: -76px;
-  font-family: serif;
+  left: -64px;
+  font-family: 'Roboto Slab', serif;
   font-size: 36px;
   font-weight: bold;
   color: rgb(51, 51, 51);
@@ -85,8 +85,6 @@ body {
 }
 
 .address {
-  display: block;
-  margin-bottom: 20px;
   color: #42b4d6;
   text-decoration: none;
 }
@@ -96,10 +94,11 @@ body {
 }
 
 .paragraphs {
-  font-family: sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
   line-height: 32px;
   color: rgb(51, 51, 51);
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
